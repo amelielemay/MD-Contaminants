@@ -1,0 +1,224 @@
+LAMMPS PFOA data file #created by Ethan Sontarp, July 2021, checked by Jennie		
+
+25 atoms		
+24 bonds		
+45 angles
+60 dihedrals
+
+6 atom types	
+4 bond types		
+7 angle types
+7 dihedral types	
+
+-10.0 10.0 xlo xhi		
+-10.0 10.0 ylo yhi		
+-10.0 10.0 zlo zhi		
+
+Masses		
+
+1 12.011 	#Perfluoroalkane C (CF3-)
+2 18.998 	#Perfluoroalkane F
+3 12.011 	#Perfluoroalkane C (-CF2-)
+4 12.011 	#Carboxylate RCH2-COO-
+5 12.011		#Carboxylate C
+6 15.999		#Carboxylate O
+				
+Atoms						
+
+1	1	1	0.36		-2.529791948	2.446764607	0.060398725	#OPLS atom type 791(13)	
+2	1	2	-0.12		-2.613811257	1.7309313096	-1.1207113158	#OPLS atom type 795(1)
+3	1	2	-0.12		-3.63550024	3.2735230848	0.1504439519	#OPLS atom type 795(1)
+4	1	2	-0.12		-2.553349791	1.565765512	1.126942992	#OPLS atom type 795(1)
+5	1	3	0.24		-1.251634974	3.30214038	0.087488771	#OPLS atom type 792(13)
+6	1	2	-0.12		-1.303379709	4.183615567	-0.979993646	#OPLS atom type 795(1)
+7	1	2	-0.12		-1.250259691	4.035299035	1.26314807	#OPLS atom type 795(1)
+8	1	3	0.24		0.044218274	2.449831322	0.003453296	#OPLS atom type 792(13)
+9	1	2	-0.12		0.014971014	1.699509435	-1.16126355	#OPLS atom type 795(1)
+10	1	2	-0.12		0.079443923	1.584055851	1.084883174	#OPLS atom type 795(1)
+11	1	3	0.24		1.32867991	3.325695971	0.008219394	#OPLS atom type 792(13)
+12	1	2	-0.12		1.293635759	4.174091788	-1.086926675	#OPLS atom type 795(1)
+13	1	2	-0.12		1.345261216	4.094613273	1.160842271	#OPLS atom type 795(1)
+14	1	3	0.24		2.631707044	2.47854896	-0.049554345	#OPLS atom type 792(13)
+15	1	2	-0.12		2.614294711	1.697840579	-1.194187175	#OPLS atom type 795(1)	
+16	1	2	-0.12		2.673078578	1.641623776	1.054205575	#OPLS atom type 795(1)
+17	1	3	0.24		3.911171935	3.361559569	-0.060840958	#OPLS atom type 792(13)
+18	1	2	-0.12		3.880077609	4.194962311	-1.168607677	#OPLS atom type 795(1)	
+19	1	2	-0.12		3.935424574	4.143627851	1.083786856	#OPLS atom type 795(1)
+20	1	4	0.14		5.215774471	2.52383731	-0.113029956	#OPLS atom type 216(13)
+21	1	2	-0.12		5.225588114	1.747486269	-1.259312376	#OPLS atom type 795(1)	
+22	1	2	-0.12		5.278763894	1.688203326	0.988972483	#OPLS atom type 795(1)
+23	1	5	0.7		6.466003338	3.37273063	-0.119619	#OPLS atom type 213(3)
+24	1	6	-0.8		6.410865342	4.59274765	-0.083353132	#OPLS atom type 214(52)
+25	1	6	-0.8		7.669969568	2.771252536	-0.165570358	#OPLS atom type 214(52)
+
+#Atom 20 made OPLS 216(13) - Carboxylate RCH2-COO-
+	#Calculated difference between having RCH2 (OPLS 81) and RCF2 (OPLS 792)
+		#+0.36 charge for having RCF2-COO- as opposed to -0.22 (OPLS 216)
+		#Therefore, charge is -0.22 + 0.36 = 0.14
+
+Bonds						
+
+1	1	1	2	#C-F bond OPLS (13-1)
+2	1	1	3	#C-F bond OPLS (13-1)
+3	1	1	4	#C-F bond OPLS (13-1)
+4	2	1	5	#C-C bond OPLS (13-13)
+5	1	5	6	#C-F bond OPLS (13-1)
+6	1	5	7	#C-F bond OPLS (13-1)
+7	2	5	8	#C-C bond OPLS (13-13)
+8	1	8	9	#C-F bond OPLS (13-1)
+9	1	8	10	#C-F bond OPLS (13-1)
+10	2	8	11	#C-C bond OPLS (13-13)
+11	1	11	12	#C-F bond OPLS (13-1)
+12	1	11	13	#C-F bond OPLS (13-1)
+13	2	11	14	#C-C bond OPLS (13-13)
+14	1	14	15	#C-F bond OPLS (13-1)
+15	1	14	16	#C-F bond OPLS (13-1)
+16	2	14	17	#C-C bond OPLS (13-13)
+17	1	17	18	#C-F bond OPLS (13-1)
+18	1	17	19	#C-F bond OPLS (13-1)
+19	2	17	20	#C-C bond OPLS (13-13)
+20	1	20	21	#C-F bond OPLS (13-1)
+21	1	20	22	#C-F bond OPLS (13-1)
+22	3	20	23	#C-C (carboxylate) bond OPLS (13-3)
+23	4	23	24	#C=O bond OPLS (3-52)
+24	4	23	25	#C-O bond OPLS (3-52)
+
+Angles				
+
+1	1	2	1	3	#F-C-F angle OPLS (1-13-1)
+2	2	2	1	5	#F-C-C angle OPLS (1-13-13)
+3	2	4	1	5	#F-C-C angle OPLS (1-13-13)
+4	1	3	1	4	#F-C-F angle OPLS (1-13-1)
+5	2	1	5	6	#C-C-F angle OPLS (13-13-1)
+6	1	6	5	7	#F-C-F angle OPLS (1-13-1)
+7	2	7	5	8	#F-C-C angle OPLS (1-13-13)
+8	3	1	5	8	#C-C-C angle OPLS (13-13-13)
+9	2	5	8	9	#C-C-F angle OPLS (13-13-1)
+10	3	5	8	11	#C-C-C angle OPLS (13-13-13)
+11	2	10	8	11	#F-C-C angle OPLS (1-13-13)
+12	1	9	8	10	#F-C-F angle OPLS (1-13-1)
+13	2	8	11	12	#C-C-F angle OPLS (13-13-1)
+14	1	12	11	13	#F-C-F angle OPLS (1-13-1)
+15	2	13	11	14	#F-C-C angle OPLS (1-13-13)
+16	3	8	11	14	#C-C-C angle OPLS (13-13-13)
+17	2	11	14	15	#C-C-F angle OPLS (13-13-1)
+18	3	11	14	17	#C-C-C angle OPLS (13-13-13)
+19	2	16	14	17	#C-C-F angle OPLS (13-13-1)
+20	1	15	14	16	#F-C-F angle OPLS (1-13-1)
+21	2	14	17	18	#C-C-F angle OPLS (13-13-1)
+22	1	18	17	19	#F-C-F angle OPLS (1-13-1)
+23	2	19	17	20	#F-C-C angle OPLS (1-13-13)
+24	3	14	17	20	#C-C-C angle OPLS (13-13-13)
+25	2	17	20	21	#C-C-F angle OPLS (13-13-1)
+26	4	17	20	23	#C-C-C (carboxylate) angle OPLS (13-13-3)
+27	5	22	20	23	#C (carboxylate)-C-F angle OPLS (3-13-1)
+28	1	21	20	22	#F-C-F angle OPLS (1-13-1)
+29	6	20	23	24	#C-C (carboxylate)=O angle OPLS (13-3-52)
+30	7	24	23	25	#O=C (carboxylate)-O angle OPLS (52-3-52)
+31	6	20	23	25	#C-C (carboxylate)-O angle OPLS (13-3-52)
+32	1	2	1	4	#F-C-F angle OPLS (1-13-1)
+33	2	3	1	5	#F-C-C angle OPLS (1-13-13)
+34	2	6	5	8	#F-C-C angle OPLS (1-13-13)
+35	2	1	5	7	#C-C-F angle OPLS (13-13-1)
+36	2	5	8	10	#C-C-F angle OPLS (13-13-1)
+37	2	9	8	11	#F-C-C angle OPLS (1-13-13)
+38	2	12	11	14	#F-C-C angle OPLS (1-13-13)
+39	2	8	11	13	#C-C-F angle OPLS (13-13-1)
+40	2	11	14	16	#C-C-F angle OPLS (13-13-1)
+41	2	15	14	17	#F-C-C angle OPLS (1-13-13)
+42	2	18	17	20	#F-C-C angle OPLS (1-13-13)
+43	2	14	17	19	#C-C-F angle OPLS (13-13-1)
+44	2	17	20	22	#C-C-F angle OPLS (13-13-1)
+45	5	21	20	23	#F-C-C (carboxylate) angle OPLS (1-13-3)
+
+Dihedrals
+
+1	1	1	5	8	11	#C-C-C-C dihedral OPLS (13-13-13-13)
+2	2	1	5	8	9	#C-C-C-F dihedral OPLS (13-13-13-1)
+3	2	1	5	8	9	#C-C-C-F dihedral OPLS (13-13-13-1)
+4	2	2	1	5	8	#F-C-C-C dihedral OPLS (1-13-13-13)
+5	3	2	1	5	7	#F-C-C-F dihedral OPLS (1-13-13-1)
+6	3	2	1	5	6	#F-C-C-F dihedral OPLS (1-13-13-1)
+7	2	3	1	5	8	#F-C-C-C dihedral OPLS (1-13-13-13)
+8	3	3	1	5	7	#F-C-C-F dihedral OPLS (1-13-13-1)
+9	3	3	1	5	6	#F-C-C-F dihedral OPLS (1-13-13-1)
+10	2	4	1	5	8	#F-C-C-C dihedral OPLS (1-13-13-13)
+11	3	4	1	5	7	#F-C-C-F dihedral OPLS (1-13-13-1)
+12	3	4	1	5	6	#F-C-C-F dihedral OPLS (1-13-13-1)
+13	1	5	8	11	14	#C-C-C-C dihedral OPLS (13-13-13-13)
+14	2	5	8	11	13	#C-C-C-F dihedral OPLS (13-13-13-1)
+15	2	5	8	11	12	#C-C-C-F dihedral OPLS (13-13-13-1)
+16	2	6	5	8	11	#F-C-C-C dihedral OPLS (1-13-13-13)
+17	3	6	5	8	9	#F-C-C-F dihedral OPLS (1-13-13-1)
+18	3	6	5	8	10	#F-C-C-F dihedral OPLS (1-13-13-1)
+19	2	7	5	8	11	#F-C-C-C dihedral OPLS (1-13-13-13)
+20	3	7	5	8	9	#F-C-C-F dihedral OPLS (1-13-13-1)
+21	3	7	5	8	10	#F-C-C-F dihedral OPLS (1-13-13-1)
+22	1	8	11	14	17	#C-C-C-C dihedral OPLS (13-13-13-13)
+23	2	8	11	14	15	#C-C-C-F dihedral OPLS (13-13-13-1)
+24	2	8	11	14	16	#C-C-C-F dihedral OPLS (13-13-13-1)
+25	2	9	8	11	14	#F-C-C-C dihedral OPLS (1-13-13-13)
+26	3	9	8	11	13	#F-C-C-F dihedral OPLS (1-13-13-1)
+27	3	9	8	11	12	#F-C-C-F dihedral OPLS (1-13-13-1)
+28	2	10	8	11	14	#F-C-C-C dihedral OPLS (1-13-13-13)
+29	3	10	8	11	13	#F-C-C-F dihedral OPLS (1-13-13-1)
+30	3	10	8	11	12	#F-C-C-F dihedral OPLS (1-13-13-1)
+31	1	11	14	17	20	#C-C-C-C dihedral OPLS (13-13-13-13)
+32	2	11	14	17	19	#C-C-C-F dihedral OPLS (13-13-13-1)
+33	2	11	14	17	18	#C-C-C-F dihedral OPLS (13-13-13-1)
+34	2	12	11	14	17	#F-C-C-C dihedral OPLS (1-13-13-13)
+35	3	12	11	14	16	#F-C-C-F dihedral OPLS (1-13-13-1)
+36	3	12	11	14	15	#F-C-C-F dihedral OPLS (1-13-13-1)
+37	2	13	11	14	17	#F-C-C-C dihedral OPLS (1-13-13-13)
+38	3	13	11	14	15	#F-C-C-F dihedral OPLS (1-13-13-1)
+39	3	13	11	14	16	#F-C-C-F dihedral OPLS (1-13-13-1)
+40	4	14	17	20	23	#C-C-C-C (carboxylate) dihedral OPLS (13-13-13-3)
+41	2	14	17	20	22	#C-C-C-F dihedral OPLS (13-13-13-1)
+42	2	14	17	20	21	#C-C-C-F dihedral OPLS (13-13-13-1)
+43	2	15	14	17	20	#F-C-C-C dihedral OPLS (1-13-13-13)
+44	3	15	14	17	19	#F-C-C-F dihedral OPLS (1-13-13-1)
+45	3	15	14	17	18	#F-C-C-F dihedral OPLS (1-13-13-1)
+46	2	16	14	17	20	#F-C-C-C dihedral OPLS (1-13-13-13)
+47	3	16	14	17	19	#F-C-C-F dihedral OPLS (1-13-13-1)
+48	3	16	14	17	18	#F-C-C-F dihedral OPLS (1-13-13-1)
+49	5	17	20	23	25	#C-C-C (carboxylate)-O dihedral OPLS (13-13-3-52)
+50	5	17	20	23	24	#C-C-C (carboxylate)=O dihedral OPLS (13-13-3-52)
+51	6	18	17	20	23	#F-C-C-C (carboxylate) dihedral OPLS (1-13-13-3)
+52	3	18	17	20	22	#F-C-C-F dihedral OPLS (1-13-13-1)
+53	3	18	17	20	21	#F-C-C-F dihedral OPLS (1-13-13-1)
+54	6	19	17	20	23	#F-C-C-C (carboxylate) dihedral OPLS (1-13-13-3)
+55	3	19	17	20	22	#F-C-C-F dihedral OPLS (1-13-13-1)
+56	3	19	17	20	21	#F-C-C-F dihedral OPLS (1-13-13-1)
+57	7	21	20	23	25	#F-C-C (carboxylate)-O dihedral OPLS (1-13-3-52)
+58	7	21	20	23	24	#F-C-C (carboxylate)=O dihedral OPLS (1-13-3-52)
+59	7	22	20	23	25	#F-C-C (carboxylate)-O dihedral OPLS (1-13-3-52)
+60	7	22	20	23	24	#F-C-C (carboxylate)=O dihedral OPLS (1-13-3-52)
+
+Bond Coeffs				
+
+1	15.9143678	1.36	#force constant and equilibrium length for bond type 1 (13-1)
+2	11.6213912	1.529	#force constant and equilibrium length for bond type 2 (13-13)
+3	13.7461978	1.522	#force constant and equilibrium length for bond type 3 (13-3)
+4	28.4463904	1.25	#force constant and equilibrium length for bond type 4 (3-52)
+
+Angle Coeffs				
+
+1	3.3389818	109.1		#force constant and equilibrium angle for angle type 1 (1-13-1)
+2	2.16817		109.5		#force constant and equilibrium angle for angle type 2 (1-13-13)
+3	2.53025439	112.7		#force constant and equilibrium angle for angle type 3 (13-13-13)
+4	2.7318942	111.1		#force constant and equilibrium angle for angle type 4 (13-13-3)
+5	2.16817		109.5		#force constant and equilibrium angle for angle type 5 (3-13-1)
+6	3.035438		117		#force constant and equilibrium angle for angle type 6 (13-3-52)
+7	3.469072		126		#force constant and equilibrium angle for angle type 7 (52-3-52)
+
+Dihedral Coeffs
+
+1	0.287152435	0.041108503	-0.060188399	-0.091843681	#torsions for dihedral type 1 (13-13-13-13)
+2	0.01300902	-0.01734536	0.01734536	0	#torsions for dihedral type 2 (1-13-13-13)
+3	-0.1084085	0		0.01084085	0	#torsions for dihedral type 3 (1-13-13-1)
+4	-0.089328604	-0.013572744	0.013659471	0	#torsions for dihedral type 4 (3-13-13-13)
+5	0		0.035557988	0		0	#torsions for dihedral type 5 (52-3-13-13)
+6	-0.18837061	-0.074324868	0		0	#torsions for dihedral type 6 (1-13-13-3) * No OPLS-AA parameters for type 6 - used OPLS (0-13-13-3) where 0 is any atom
+7	0		0		0		0	#torsions for dihedral type 7 (52-3-13-1) * No OPLS-AA parameters for type 7 - used OPLS (52-3-13-46) because (46) was the best candidate 
+														# as (46) H-C type 
+													# bond in linear fashion as opposed to (13) CT bond and (44) NT bond in tetrahedral fashion

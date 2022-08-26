@@ -1,0 +1,76 @@
+LAMMPS Glyoxal data file #created by Ethan Sontarp, July 2021; checked by Ian
+
+6 atoms		
+5 bonds		
+6 angles
+6 dihedrals
+
+3 atom types	
+3 bond types		
+3 angle types
+4 dihedral types
+
+-20.0 20.0 xlo xhi		
+-20.0 20.0 ylo yhi		
+-20.0 20.0 zlo zhi		
+
+Masses		
+
+1 12.011 	#Aldehyde/Acyl Halide C=O Carbon
+2 15.999  	#Aldehyde/Acyl Halide C=O Oxygen
+3 1.008		#Aldehyde/Formamide H-C=O Hydrogen
+
+
+Atoms						
+
+1	1	1	0.45	-3.298300776	1.138102623	0	#OPLS atom type 219(3)
+2	1	2	-0.45	-3.942695698	2.174027999	0	#OPLS atom type 220(4)
+3	1	3	0	-3.815814116	0.184045235	0	#OPLS atom type 221(46)
+4	1	1	0.45	-1.831007161	1.183403461	0	#OPLS atom type 219(3)
+5	1	3	0	-1.31349298	2.137460452	0	#OPLS atom type 221(46)
+6	1	2	-0.45	-1.186612873	0.14747772	0	#OPLS atom type 220(4)
+
+Bonds						
+
+1	1	1	2	#C=O OPLS bond (3-4)
+2	2	1	3	#C-H OPLS bond (3-46)
+3	3	1	4	#C-C OPLS bond (3-3)
+4	2	4	5	#C-H OPLS bond (3-46)
+5	1	4	6	#C=O OPLS bond (3-4)
+
+Angles				
+
+1	1	1	4	6	#C-C=O angle OPLS (3-3-4)
+2	1	2	1	4	#C-C=O angle OPLS (3-3-4)
+3	2	2	1	3	#O=C-H angle OPLS (4-3-46)
+4	2	5	4	6	#O=C-H angle OPLS (4-3-46)
+5	3	3	1	4	#H-C-C angle OPLS (46-3-3)
+6	3	1	4	5	#H-C-C angle OPLS (46-3-3)
+
+Dihedrals
+
+1	1	2	1	4	6	#O=C-C=O dihedral OPLS (4-3-3-4)
+2	2	2	1	4	5	#O=C-C-H dihedral OPLS (4-3-3-46)
+3	2	3	1	4	6	#O=C-C-H dihedral OPLS (4-3-3-46)
+4	3	3	1	4	5	#H-C-C-H dihedral OPLS (46-3-3-46)
+5	4	1	5	4	6	X-X-C=O improper OPLS (0-0-3-4)
+6	4	4	3	1	2	X-X-C=O improper OPLS (0-0-3-4)
+
+Bond Coeffs				
+
+1	24.7171	1.2290	#force constant and equilibrium length for bond type 1 (3-4)
+2	14.7435	1.0900	#force constant and equilibrium length for bond type 2 (3-46)
+3	15.1772	1.5100	#force constant and equilibrium length for bond type 3 (3-3)
+
+Angle Coeffs				
+
+1	3.4691	121.40	#force constant and equilibrium angle for angle type 1 (3-3-4)
+2	1.5177	123.00 	#force constant and equilibrium angle for angle type 2 (4-3-46)
+3	1.5177	115.00	#force constant and equilibrium angle for angle type 3 (46-3-3) (No OPLS parameter - substituted OPLS 46-3-13)
+
+Dihedral Coeffs
+
+1	0.0694	0.1388	0.0000	0.0000	#torsions for dihedral type 1 (4-3-3-4)
+2	0.0000	0.0087	0.0000	0.0000	#torsions for dihedral type 2 (4-3-3-46)
+3	0.0347	0.0000	0.0000	0.0000	#torsions for dihedral type 3 (46-3-3-46)
+4	0.0000	0.9106	0.0000	0.0000 	#torsions for improper dihedral type 4 (0-0-3-4)

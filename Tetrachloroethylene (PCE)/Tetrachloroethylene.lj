@@ -1,0 +1,72 @@
+LAMMPS Tetrachloroethylene data file #created by Daniela Martinez, June 2021; checked by Ian	
+
+6	atoms
+5	bonds
+6	angles
+6  dihedrals	
+
+2	atom types
+2	bond types
+2	angle types
+2	dihedral types 
+
+-12.0 12.0 xlo xhi	 
+-12.0 12.0 ylo yhi	
+-12.0 12.0 zlo zhi	
+
+Masses		
+
+1 35.453   #Cl OPLS Atom Type 341(21)
+2 12.011   #C OPLS Atom Type 342(47)
+
+Atoms	#atom index, molecule index, atom type, partial charge, xyz coordinate
+
+1	1	1	-0.06	-2.825404289	1.644785492	0.0000	#OPLS Atom Type 341(21)
+2	1	1	-0.06	-2.566133942	-1.349961618	0.0000	#OPLS Atom Type 341(21)
+3	1	2	0.12	-1.781343569	0.226578357	0.0000	#OPLS Atom Type 342(47)
+4	1	2	0.12	-0.441685855	0.342559056	0.0000	#OPLS Atom Type 342(47)
+5	1	1	-0.06	0.343105028	1.919098791	0.0000	#OPLS Atom Type 341(21)
+6	1	1	-0.06	0.602374404	-1.075648402	0.0000	#OPLS Atom Type 341(21)
+
+Bonds	#Bond Index, Bond Type, Atom 1, Atom 2					
+
+1	1	1	3	#OPLS Bond Type 21-47
+2	1	2	3	#OPLS Bond Type 21-47
+3	2	3	4	#OPLS Bond Type 47-47
+4	1	4	5	#OPLS Bond Type 21-47
+5	1	4	6	#OPLS Bond Type 21-47
+
+Angles	#Angle Index, Angle Type, Atom 1, Atom 2, Atom 3	
+
+1	1	1	3	2	#OPLS Angle Type 21-47-21
+2	2	1	3	4	#OPLS Angle Type 21-47-47
+3	2	2	3	4	#OPLS Angle Type 21-47-47
+4	2	3	4	6	#OPLS Angle Type 21-47-47
+5	1	5	4	6	#OPLS Angle Type 21-47-21
+6	2	3	4	5	#OPLS Angle Type 21-47-47
+
+Dihedrals #Dihedral Index, Dihedral type, atoms 
+
+1	1	1	3	4	6	#OPLS Dihedral Type 21-47-47-21
+2	1	1	3	4	5	#OPLS Dihedral Type 21-47-47-21
+3	1	2	3	4	5	#OPLS Dihedral Type 21-47-47-21
+4	1	2	3	4	6	#OPLS Dihedral Type 21-47-47-21
+5	2	1	2	3	4	#Improper Dihedral Type 0-0-47-0
+6	2	5	6	4	3	#Improper Dihedral Type 0-0-47-0
+
+
+Bond Coeffs	#Bond Index, force constant, equilibrium length	
+
+1	13.0090	1.7250	#OPLS Bond Type 21-47
+2	23.8065	1.3400	#OPLS Bond Type 47-47
+
+Angle Coeffs	#Angle Index, Force Constant, Equilibrium angle			
+ 
+1	2.6018	114.00	#OPLS Angle Type 21-47-21 approximated as OPLS Angle Type 21-47-46
+2	3.2522	121.50	#OPLS Angle Type 21-47-47
+
+Dihedral Coeffs	#dihedral index, k1, k2, k3, k4
+
+1	-0.0694	0.6071	0.0000	0.0000	#OPLS Dihedral Type 21-47-47-21
+2	0.0000	1.3009	0.0000	0.0000	#OPLS Improper Dihedral Type 0-0-47-0
+

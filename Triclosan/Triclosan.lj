@@ -1,0 +1,227 @@
+LAAMPS Triclosan data file #created by Ryan Neapole, June 2021; checked by Ian
+
+24 atoms
+25 bonds
+38 angles
+66 dihedrals
+
+9 atom types
+6 bond types
+7 angle types
+13 dihedral types
+
+-15.0 15.0 xlo xhi
+-15.0 15.0 ylo yhi
+-15.0 15.0 zlo zhi
+
+Masses
+
+1 35.453 	#Cl OLPS 206
+2 12.011 	#C OLPS 205
+3 12.011 	#C OLPS 90
+4 1.00782 	#H OLPS 91
+5 12.011		#C OLPS 141
+6 15.99491 	#O OLPS 119	
+7 12.011 	#C OLPS 108
+8 15.99491 	#O OLPS 109
+9 1.00782 	#H OLPS 110
+
+Atoms
+
+1	1	1	-0.18	-4.975	-1.7896	0.3951	#OPLS atom type 206(21)
+2	1	2	0.18	-3.5223	-0.9166	0.0959	#OPLS atom type 205(48)
+3	1	3	-0.115	-3.3536	0.3617	0.6281	#OPLS atom type 90(48)
+4	1	4	0.115	-4.1418	0.8067	1.2319	#OPLS atom type 91(49)
+5	1	2	0.18	-2.1753	1.0681	0.386	#OPLS atom type 205(48)
+6	1	1	-0.18	-1.9929	2.6476	1.055	#OPLS atom type 206(21)
+7	1	5	0.085	-1.1835	0.4855	-0.3842	#OPLS atom type 141(48)
+8	1	3	-0.115	-1.3345	-0.7824	-0.9203	#OPLS atom type 90(48)
+9	1	3	-0.115	-2.5127	-1.4885	-0.6782	#OPLS atom type 90(48)
+10	1	4	0.115	-2.6314	-2.4828	-1.1012	#OPLS atom type 91(49)
+11	1	4	0.115	-0.5637	-1.2373	-1.5351	#OPLS atom type 91(49)
+12	1	6	-0.17	-0.0044	1.1637	-0.6411	#OPLS atom type 119(20)
+13	1	5	0.085	1.1584	0.5912	-0.2218	#OPLS atom type 141(48)
+14	1	3	-0.115	1.3454	0.3342	1.1363	#OPLS atom type 90(48)
+15	1	4	0.115	0.5831	0.5915	1.8665	#OPLS atom type 91(49)
+16	1	3	-0.115	2.5321	-0.2503	1.5784	#OPLS atom type 90(48)
+17	1	4	0.115	2.665	-0.4429	2.64	#OPLS atom type 91(49)
+18	1	2	0.18	3.532	-0.578	0.6625	#OPLS atom type 205(48)
+19	1	1	-0.18	4.9959	-1.2993	1.2086	#OPLS atom type 206(21)
+20	1	3	-0.115	3.3449	-0.321	-0.6957	#OPLS atom type 90(48)
+21	1	4	0.115	4.1242	-0.5762	-1.4104	#OPLS atom type 91(49)
+22	1	7	0.15	2.1581	0.2636	-1.1379	#OPLS atom type 108(48)
+23	1	8	-0.585	1.9872	0.5101	-2.4666	#OPLS atom type 109(5)
+24	1	9	0.435	2.7799	0.2175	-2.9482	#OPLS atom type 110(7)
+
+Bonds
+
+1	1	1	2	#Cl-C bond (OPLS bond type 21-48)	
+2	2	2	3	#C=C bond (OPLS bond type 48-48)	
+3	2	2	9	#C=C bond (OPLS bond type 48-48)	
+4	3	3	4	#C-H bond (OPLS bond type 48-49)	
+5	2	3	5	#C=C bond (OPLS bond type 48-48)	
+6	1	5	6	#Cl-C bond (OPLS bond type 21-48)	
+7	2	5	7	#C=C bond (OPLS bond type 48-48)	
+8	2	7	8	#C=C bond (OPLS bond type 48-48)	
+9	2	8	9	#C=C bond (OPLS bond type 48-48)	
+10	3	8	11	#C-H bond (OPLS bond type 48-49)	
+11	3	9	10	#C-H bond (OPLS bond type 48-49)	
+12	4	7	12	#C-O bond (OPLS bond type 48-20)	
+13	4	12	13	#C-O bond (OPLS bond type 48-20)	
+14	2	13	14	#C=C bond (OPLS bond type 48-48)	
+15	3	14	15	#C-H bond (OPLS bond type 48-49)	
+16	2	14	16	#C=C bond (OPLS bond type 48-48)	
+17	3	16	17	#C-H bond (OPLS bond type 48-49)	
+18	2	16	18	#C=C bond (OPLS bond type 48-48)	
+19	1	18	19	#Cl-C bond (OPLS bond type 21-48)	
+20	2	18	20	#C=C bond (OPLS bond type 48-48)	
+21	3	20	21	#C-H bond (OPLS bond type 48-49)	
+22	2	20	22	#C=C bond (OPLS bond type 48-48)	
+23	2	22	13	#C=C bond (OPLS bond type 48-48)	
+24	5	22	23	#C-O bond (OPLS bond type 48-5)	
+25	6	23	24	#O-H bond (OPLS bond type 5-7)	
+
+Angles
+
+1	4	13	12	7	#OPLS angle type 48-20-48	
+2	6	22	23	24	#OPLS angle type 48-5-7
+3	5	12	13	22	#OPLS angle type 20-48-48	
+4	5	12	13	14
+5	2	22	13	14	#OPLS angle type 48-48-48
+6	5	12	7	5
+7	5	12	7	8
+8	2	5	7	8
+9	7	23	22	13	#OPLS angle type 5-48-48
+10	7	23	22	20
+11	2	13	22	20
+12	2	13	14	16
+13	3	13	14	15	#OPLS angle type 48-48-49
+14	3	16	14	15
+15	1	6	5	7	#OPLS angle type 21-48-48
+16	1	6	5	3
+17	2	7	5	3
+18	2	7	8	9
+19	3	7	8	11
+20	3	9	8	11
+21	2	22	20	18
+22	3	22	20	21
+23	3	18	20	21
+24	2	14	16	18
+25	3	14	16	17
+26	3	18	16	17
+27	2	5	3	2
+28	3	5	3	4
+29	3	2	3	4
+30	2	8	9	2
+31	3	8	9	10
+32	3	2	9	10
+33	1	19	18	20
+34	1	19	18	16
+35	2	20	18	16
+36	1	1	2	3
+37	1	1	2	9
+38	2	3	2	9
+
+Dihedrals
+
+1	8	7	12	13	22
+2	8	7	12	13	14
+3	8	13	12	7	5
+4	8	13	12	7	8
+5	9	24	23	22	13
+6	9	24	23	22	20
+7	10	12	13	22	23
+8	2	12	13	22	20
+9	1	14	13	22	23
+10	6	14	13	22	20
+11	2	12	13	14	16
+12	3	12	13	14	15
+13	6	22	13	14	16
+14	7	22	13	14	15
+15	3	12	7	5	6
+16	2	12	7	5	3
+17	4	8	7	5	6
+18	6	8	7	5	3
+19	2	12	7	8	9
+20	3	12	7	8	11
+21	6	5	7	8	9
+22	7	5	7	8	11
+23	1	23	22	20	18
+24	11	23	22	20	21
+25	6	13	22	20	18
+26	7	13	22	20	21
+27	6	13	14	16	18
+28	7	13	14	16	17
+29	7	15	14	16	18
+30	12	15	14	16	17
+31	4	6	5	3	2
+32	5	6	5	3	4
+33	6	7	5	3	2
+34	7	7	5	3	4
+35	6	7	8	9	2
+36	7	7	8	9	10
+37	7	11	8	9	2
+38	12	11	8	9	10
+39	4	22	20	18	19
+40	6	22	20	18	16
+41	5	21	20	18	19
+42	7	21	20	18	16
+43	4	14	16	18	19
+44	6	14	16	18	20
+45	5	17	16	18	19
+46	7	17	16	18	20
+47	4	5	3	2	1
+48	6	5	3	2	9
+49	5	4	3	2	1
+50	7	4	3	2	9
+51	4	8	9	2	1
+52	6	8	9	2	3
+53	5	10	9	2	1
+54	7	10	9	2	3
+55	13	12	22	13	14
+56	13	12	5	7	8
+57	13	23	13	22	20
+58	13	15	13	14	16
+59	13	6	7	5	3
+60	13	11	7	8	9
+61	13	21	22	20	18
+62	13	17	14	16	18
+63	13	4	5	3	2
+64	13	10	8	9	2
+65	13	19	20	18	16
+66	13	1	3	2	9
+
+Bond Coeffs
+
+1	13.0090	1.7250	#force constant (in eV/A^2) and equilibrium length for bond type 1 (Cl-C)
+2	20.3374	1.4000	#force constant (in eV/A^2) and equilibrium length for bond type 2 (C=C)
+3	15.9143	1.0800	#force constant (in eV/A^2) and equilibrium length for bond type 3 (C-H)
+4	19.5135	1.3640	#force constant (in eV/A^2) and equilibrium length for bond type 4 (C-O)
+5	19.5135	1.3640	#force constant (in eV/A^2) and equilibrium length for bond type 5 (C-O)
+6	23.9799	0.9450	#force constant (in eV/A^2) and equilibrium length for bond type 6 (O-H)
+
+Angle Coeffs
+
+1	3.2522	120.00	#OPLS angle type 21-48-48
+2	2.7319	120.00	#OPLS angle type 48-48-48
+3	1.5177	120.00	#OPLS angle type 48-48-49
+4	3.2522	111.00	#OPLS angle type 48-20-48	
+5	3.0354	120.00	#OPLS angle type 20-48-48	
+6	1.5177	113.00	#OPLS angle type 48-5-7	
+7	3.0354	120.00	#OPLS angle type 5-48-48		
+
+Dihedral Coeffs
+
+1	0.0	0.3144	0.0	0.0	#OPLS Dihedral type 5-48-48-48 (using 0-48-48-48)
+2	0.0	0.3144	0.0	0.0	#OPLS Dihedral type 20-48-48-48 (using 0-48-48-48)
+3	0.0	0.3144	0.0	0.0	#OPLS Dihedral type 20-48-48-49 or 20-48-48-21 (using 0-48-48-49)
+4	0.0	0.3144	0.0	0.0	#OPLS Dihedral type 21-48-48-48
+5	0.0	0.3144	0.0	0.0	#OPLS Dihedral type 21-48-48-49
+6	0.0	0.3144	0.0	0.0	#OPLS Dihedral type 48-48-48-48
+7	0.0	0.3144	0.0	0.0	#OPLS Dihedral type 48-48-48-49
+8	0.0	0.1084	0.0	0.0	#OPLS Dihedral type 48-20-48-48 (doesn't exist, using 3-20-48-48)
+9	0.0	0.0729	0.0	0.0	#OPLS Dihedral type 7-5-48-48
+10	0.0	0.3144	0.0	0.0	#OPLS Dihedral type 5-48-48-20 (using 0-48-48-0)
+11	0.0	0.3144	0.0	0.0	#OPLS Dihedral type 5-48-48-49 (using 0-48-48-0)
+12	0.0	0.3144	0.0	0.0	#OPLS Dihedral type 49-48-48-49
+13	0.0	0.2168	0.0	0.0	#OPLS Dihedral type 0-0-48-0 (improper dihedral)
