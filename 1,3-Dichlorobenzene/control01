@@ -1,0 +1,49 @@
+#1,3-Dichlorobenzene input file
+
+units metal 				#defines the units (lengths in A, time in ps, energy in eV, pressure in bar, …)
+dimension 3 				#the simulation cell is three-dimensional
+atom_style full				#atoms are defined by their partial charge + xyz coordinates
+pair_style lj/cut/coul/long 12.0	#LJ + Coulomb interactions; short-range cutoff at 12 A; long-range Coulomb treated in reciprocal space
+bond_style harmonic			#bond-stretch interactions are harmonic
+angle_style harmonic			#angle-bend interactions are harmonic
+dihedral_style opls			#dihedral (torsion) interactions are in the OPLS format
+pair_modify mix geometric		#geometric mixing rule for interactions between unlike atoms (this is the convention for the OPLS force field)
+
+read_data 1,3-Dichlorobenzene.lj			#read the input file
+
+pair_coeff	1	1	1.3009E-03	2.4200	#OPLS Atom Type 91(49)
+pair_coeff	2	2	3.0354E-03	3.5500	#OPLS Atom Type 90(48)
+pair_coeff	3	3	1.3009E-02	3.4000	#OPLS Atom Type 206(21)
+pair_coeff	4	4	3.0354E-03	3.5500	#OPLS Atom Type 205(48)
+
+
+special_bonds lj/coul 0.0 0.0 0.5	#This tells LAMMPS to ignore LJ and Coulomb interactions between atoms that are connected through a bond or an angle and scale them by half for atoms that are connected through a dihedral (this is the default for the OPLS force field)
+
+kspace_style pppm 0.001			#long-range Coulomb (beyond 15 A) solved with the PPPM algorithm with 99.9 % precision
+
+timestep 0.0001				#timestep equals 0.1 fs (production runs typically use 1 fs, but it is sometimes useful to start the pre-equilibration with a shorter time-step)
+run_style verlet			#equations of motion solved with the Verlet algorithm (this is pretty standard)
+
+thermo_style one			#one of the stardard styles for the thermodynamic output that LAMMPS reports during the run
+thermo 1000				#thermo output will be reported every 1000 steps
+
+dump 1 all dcd 100 1,3-Dichlorobenzene_01.dcd		#LAMMPS will write trajectory data every 100 steps to a dump file in dcd format
+dump 2 all xyz 1000000 1,3-Dichlorobenzene_01.xyz	#LAMMPS will write the initial structure to a dump file in xyz format
+dump_modify 2 element H C Cl C	
+
+fix 1 all momentum 10000 linear 1 1 1 angular	#every 10000 steps, LAMMPS calculates the velocity of the center of mass and adjusts all atomic velocities so that the center of mass isn’t drifting (usually not necessary during production runs, but sometimes useful during pre-equilibration)
+
+fix 2 all nvt temp 298.0 298.0 0.1	#equations of motion solved for all atoms in the NVT ensemble at 298 K, with a thermostat coupling constant of 0.1 ps (relatively tight coupling; for production runs I usually relax this to 1 ps)
+run 10000				#run LAMMPS for 10000 steps
+unfix 2
+
+unfix 1
+
+timestep 0.001				#timestep now equals 1 fs
+
+thermo 10000
+
+fix 2 all nvt temp 298.0 298.0 1.0	#equations of motion will be solved for all atoms in the NVT ensemble at 298 K, with a thermostat coupling constant of 1.0 ps
+run 200000				#run LAMMPS for 100000 steps
+
+write_restart 1,3-Dichlorobenzene_01.save		#write a restart file that can be used to continue the simulation later

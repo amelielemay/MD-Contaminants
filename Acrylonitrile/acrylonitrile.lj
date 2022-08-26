@@ -1,0 +1,88 @@
+LAMMPS Acrylonitrile data file	#created by Amélie Lemay, June 2021; checked by Ian	
+
+7 atoms		
+6 bonds		
+7 angles
+8 dihedrals	#6 proper, 2 improper	
+
+6 atom types	
+4 bond types		
+5 angle types
+5 dihedral types	#4 proper, 1 improper		
+
+-20.0 20.0 xlo xhi		
+-20.0 20.0 ylo yhi		
+-20.0 20.0 zlo zhi		
+
+Masses		
+
+1	14.007
+2	12.011
+3	12.011
+4	12.011
+5	1.008
+6	1.008				
+
+Atoms						
+
+1	1	1	-0.56	-1.7665	-0.2148	0	#694(18)	"Alkyl Nitrile -CN"
+2	1	2	0.04	0.7119	0.5015	0	#698(13)	"Alkyl Nitrile R2CH-CN" -> not an exact match as what we have is an sp2 C (=CH-CN), not sp3 -> modeling this as 698(47) so the bonds/angles/dihedrals are more appropriate
+3	1	3	-0.23	1.7057	-0.3917	0	#88(47)	"Alkene H2-C="
+4	1	4	0.46	-0.6511	0.105	0	#695(19)	"Alkyl Nitrile -CN"
+5	1	5	0.06	0.94	1.5621	0	#700(46)	"Alkyl Nitrile H-C-CN"
+6	1	6	0.115	2.7387	-0.0602	0	#89(46)	"Alkene H-C="
+7	1	6	0.115	1.5184	-1.4606	0	#89(46)	"Alkene H-C="
+
+Bonds						
+
+1	1	1	4	#18-19
+2	2	2	3	#47-47
+3	3	2	4	#19-47
+4	4	2	5	#46-47
+5	4	3	6	#46-47
+6	4	3	7	#46-47
+
+Angles				
+
+1	1	4	2	5	#19-47-46
+2	2	3	2	5	#46-47-47
+3	3	1	4	2	#18-19-47
+4	2	2	3	6	#46-47-47
+5	2	2	3	7	#46-47-47
+6	4	6	3	7	#46-47-46
+7	5	3	2	4	#19-47-47
+
+Dihedrals
+
+1	1	1	4	2	3	#18-19-47-47
+2	2	1	4	2	5	#18-19-47-46
+3	3	4	2	3	6	#19-47-47-46
+4	3	4	2	3	7	#19-47-47-46
+5	4	5	2	3	6	#46-47-47-46
+6	4	5	2	3	7	#46-47-47-46
+7	5	2	6	3	7	#0-0-47-0 (improper)
+8	5	5	3	2	4	#0-0-47-0 (improper)
+
+Bond Coeffs				
+
+1	28.1862	1.1570	#18-19
+2	23.8065	1.3400	#47-47
+3	17.3453	1.4260	#19-47
+4	14.7435	1.0800	#46-47		
+
+Angle Coeffs				
+
+1	1.5177	120.00	#19-47-46
+2	1.5177	120.00	#46-47-47
+3	6.5045	180.00	#18-19-47
+4	1.5177	117.00	#46-47-46
+5	3.0354	124.00	#19-47-47
+
+Dihedral Coeffs
+
+1	0	0	0	0	#18-19-47-47 doesn't exist; using 19-19-47-47
+2	0	0	0	0	#18-19-47-46 doesn't exist; using 19-19-47-46
+3	0	0.6071	0	0	#19-47-47-46
+4	0	0.6071	0	0	#46-47-47-46
+5	0	1.3009	0	0	#0-0-47-0 (improper)
+

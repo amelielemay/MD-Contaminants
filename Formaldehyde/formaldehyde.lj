@@ -1,0 +1,59 @@
+LAMMPS Formaldehyde data file #created by Amelie Lemay, summer 2021, checked by Ian Bourg		
+
+4 atoms		
+3 bonds		
+3 angles
+1 dihedrals #0 proper, 1 improper		
+
+3 atom types	
+2 bond types		
+2 angle types
+1 dihedral types		
+
+-10.0 10.0 xlo xhi		
+-10.0 10.0 ylo yhi		
+-10.0 10.0 zlo zhi		
+
+Masses		
+
+1	1.008
+2	12.001
+3	15.999				
+
+Atoms						
+
+1	1	1	0	-3.343172351	1.572048029	0	#221(46)	"Aldehyde/Formamide H-C=O"
+2	1	2	0.45	-2.439334216	2.201983238	0	#219(3)	"Ketone C=O"
+3	1	3	-0.45	-2.495720816	3.425316053	0	#220(4)	"Ketone C=O"
+4	1	1	0	-1.481380876	1.657862655	0	#221(46)	"Aldehyde/Formamide H-C=O")
+
+Bonds						
+
+1	1	2	3	#3-4
+2	2	1	2	#3-46
+3	2	2	4	#3-46
+
+Angles				
+
+1	1	3	2	1	#4-3-46
+2	1	3	2	4	#4-3-46
+3	2	1	2	4	#46-3-46
+
+Dihedrals
+
+1	1	1	4	2	3	#0-0-3-4 (improper)
+
+Bond Coeffs				
+
+1	24.7171	1.2290	#3-4
+2	14.7435	1.0900	#3-46		
+
+Angle Coeffs				
+
+1	1.5177	123.00	#4-3-46
+2	1.5177	115.00	#46-3-46
+
+Dihedral Coeffs
+
+1	0	0.9106	0	0	#0-0-3-4 (improper)
+

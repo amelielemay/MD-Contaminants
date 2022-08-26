@@ -1,0 +1,189 @@
+LAMMPS 2,4-Dichlorophenoxyacetic Acid data file #created by Daniela Martinez, summer 2021, checked by Ian Bourg
+
+18	atoms
+18	bonds
+28	angles
+42  dihedrals	
+
+10	atom types
+8	bond types
+11	angle types
+15	dihedral types 
+
+-12.0 12.0 xlo xhi	 
+-12.0 12.0 ylo yhi	
+-12.0 12.0 zlo zhi	
+
+Masses		
+
+1 35.453	#Cl 2,4-D OPLS Type 206(21)
+2 12.011	#C 2,4-D OPLS Type 205(48)
+3 1.008 	#H 2,4-D OPLS Type 91(49)
+4 12.011	#C 2,4-D OPLS Type 90(48)
+5 12.011 	#C 2,4-D OPLS Type 141(48)
+6 15.999 	#O 2,4-D OPLS Type 121(20)
+7 12.011	#C 2,4-D OPLS Type 216(13)
+8 1.008 	#H 2,4-D OPLS Type 127(46)
+9 15.999	#O 2,4-D OPLS Type 214(52)
+10 12.011	#C 2,4-D OPLS Type 213(3)
+
+Atoms	#atom index, molecule index, atom type, partial charge, xyz coordinate
+
+1	1	1	-0.1800	0.278097402	-0.194795067	0.002903098	#OPLS Atom Type 206 (21)
+2	1	2	0.1800	2.030489158	-0.184935149	0.081234306	#OPLS Atom Type 205(48)		
+3	1	3	0.1150	2.176730549	1.962100732	0.047189235	#OPLS Atom Type 91 (49)		
+4	1	4	-0.1150	2.723790959	1.028559783	0.089352493	#OPLS Atom Type 90(48)		
+5	1	4	-0.1150	2.734923481	-1.39034952	0.135590287	#OPLS Atom Type 90(48)		
+6	1	3	0.1150	2.201603671	-2.332505577	0.129508919	#OPLS Atom Type 91 (49)		
+7	1	1	-0.1800	4.965164448	2.583010861	0.160385859	#OPLS Atom Type 206(21)		
+8	1	2	0.1800	4.122079198	1.040699793	0.151773672	#OPLS Atom Type 205(48)		
+9	1	4	-0.1150	4.13128288	-1.385618797	0.1980668	#OPLS Atom Type 90(48)		
+10	1	3	0.1150	4.648060781	-2.334857274	0.239170432	#OPLS Atom Type 91 (49)		
+11	1	5	0.0850	4.840510823	-0.165881778	0.206779594	#OPLS Atom Type 141 (48)		
+12	1	6	-0.2850	6.197278691	-0.114266964	0.266593341	#OPLS Atom Type 121(20)		
+13	1	7	0.0400	7.049539353	-1.200731778	0.325366919	#OPLS Atom Type 216(13), the charge on this atom was adjusted
+14	1	8	0.0300	6.832382102	-1.799164612	1.236433183	#OPLS Atom Type 127(46)		
+15	1	8	0.0300	6.913670695	-1.833568945	-0.578168929	#OPLS Atom Type 127(46)		
+16	1	9	-0.8000	8.760272496	0.441576759	0.370853128	#OPLS Atom Type 214(52)		
+17	1	10	0.7000	8.478169326	-0.746756253	0.380753558	#OPLS Atom Type 213(3)		
+18	1	9	-0.8000	9.463509566	-1.662076535	0.442248909	#OPLS Atom Type 214(52)		
+
+Bonds	#Bond Index, Bond Type, Atom 1, Atom 2					
+
+1	1	1	2	#OPLS Bond Type 21-48
+2	2	2	4	#OPLS Bond Type 48-48
+3	2	2	5	#OPLS Bond Type 48-48
+4	3	3	4	#OPLS Bond Type 49-48
+5	3	5	6	#OPLS Bond Type 49-48
+6	2	4	8	#OPLS Bond Type 48-48
+7	2	5	9	#OPLS Bond Type 48-48
+8	1	7	8	#OPLS Bond Type 21-48
+9	3	9	10	#OPLS Bond Type 49-48
+10	2	8	11	#OPLS Bond Type 48-48
+11	2	11	9	#OPLS Bond Type 48-48
+12	4	11	12	#OPLS Bond Type 20-48
+13	5	12	13	#OPLS Bond Type 13-20
+14	6	13	14	#OPLS Bond Type 13-46
+15	6	13	15	#OPLS Bond Type 13-46
+16	7	13	17	#OPLS Bond Type 3-13
+17	8	16	17	#OPLS Bond Type 3-52
+18	8	17	18	#OPLS Bond Type 3-52
+
+Angles	#Angle Index, Angle Type, Atom 1, Atom 2, Atom 3	
+
+1	1	1	2	4	#OPLS Angle Type 21-48-48
+2	1	1	2	5	#OPLS Angle Type 21-48-48
+3	2	4	2	5	#OPLS Angle Type 48-48-48
+4	3	2	4	3	#OPLS Angle Type 48-48-49
+5	2	2	4	8	#OPLS Angle Type 48-48-48
+6	3	3	4	8	#OPLS Angle Type 48-48-49
+7	2	4	8	11	#OPLS Angle Type 48-48-48
+8	1	4	8	7	#OPLS Angle Type 21-48-48
+9	1	7	8	11	#OPLS Angle Type 21-48-48
+10	2	2	5	9	#OPLS Angle Type 48-48-48
+11	3	6	5	9	#OPLS Angle Type 48-48-49
+12	3	2	5	6	#OPLS Angle Type 48-48-49
+13	3	5	9	10	#OPLS Angle Type 48-48-49
+14	3	11	9	10	#OPLS Angle Type 48-48-49
+15	2	5	9	11	#OPLS Angle Type 48-48-48
+16	4	8	11	12	#OPLS Angle Type 20-48-48
+17	4	9	11	12	#OPLS Angle Type 20-48-48
+18	2	9	11	8	#OPLS Angle Type 48-48-48
+19	5	11	12	13	#OPLS Angle Type 13-20-48
+20	6	12	13	14	#OPLS Angle Type 20-13-46
+21	7	14	13	15	#OPLS Angle Type 46-13-46
+22	8	15	13	17	#OPLS Angle Type 3-13-46
+23	9	12	13	17	#OPLS Angle Type 3-13-20
+24	10	13	17	18	#OPLS Angle Type 13-3-52
+25	11	16	17	18	#OPLS Angle Type 52-3-52
+26	10	13	17	16	#OPLS Angle Type 13-3-52
+27	6	12	13	15	#OPLS Angle Type 20-13-46
+28	8	17	13	14	#OPLS Angle Type 3-13-46
+
+Dihedrals #Dihedral Index, Dihedral type, atoms 
+
+1	1	1	2	4	3	#OPLS Dihedral Type 21-48-48-49
+2	2	1	2	4	8	#OPLS Dihedral Type 21-48-48-48
+3	1	1	2	5	6	#OPLS Dihedral Type 21-48-48-49
+4	2	1	2	5	9	#OPLS Dihedral Type 21-48-48-48
+5	4	2	4	8	11	#OPLS Dihedral Type 48-48-48-48
+6	2	2	4	8	7	#OPLS Dihedral Type 21-48-48-48
+7	3	2	5	9	10	#OPLS Dihedral Type 48-48-48-49
+8	4	2	5	9	11	#OPLS Dihedral Type 48-48-48-48
+9	3	3	4	2	5	#OPLS Dihedral Type 48-48-48-49
+10	1	3	4	8	7	#OPLS Dihedral Type 21-48-48-49
+11	3	3	4	8	11	#OPLS Dihedral Type 48-48-48-49
+12	4	4	2	5	9	#OPLS Dihedral Type 48-48-48-48
+13	3	4	2	5	6	#OPLS Dihedral Type 48-48-48-49
+14	6	4	8	11	12	#OPLS Dihedral Type 20-48-48-48
+15	4	4	8	11	9	#OPLS Dihedral Type 48-48-48-48
+16	2	7	8	11	9	#OPLS Dihedral Type 21-48-48-48
+17	7	7	8	11	12	#OPLS Dihedral Type 20-48-48-21
+18	4	8	4	2	5	#OPLS Dihedral Type 48-48-48-48
+19	4	8	11	9	5	#OPLS Dihedral Type 48-48-48-48
+20	3	8	11	9	10	#OPLS Dihedral Type 48-48-48-49
+21	8	8	11	12	13	#OPLS Dihedral Type 13-20-48-48
+22	3	11	9	5	6	#OPLS Dihedral Type 48-48-48-49
+23	9	11	12	13	14	#OPLS Dihedral Type 48-20-13-46
+24	9	11	12	13	15	#OPLS Dihedral Type 48-20-13-46
+25	10	11	12	13	17	#OPLS Dihedral Type 3-13-20-48
+26	8	9	11	12	13	#OPLS Dihedral Type 13-20-48-48
+27	5	10	9	5	6	#OPLS Dihedral Type 49-48-48-49
+28	11	10	9	11	12	#OPLS Dihedral Type 20-48-48-49
+29	6	5	9	11	12	#OPLS Dihedral Type 20-48-48-48
+30	12	12	13	17	18	#OPLS Dihedral Type 20-13-3-52
+31	12	12	13	17	16	#OPLS Dihedral Type 20-13-3-52
+32	13	14	13	17	16	#OPLS Dihedral Type 46-13-3-52
+33	13	14	13	17	18	#OPLS Dihedral Type 46-13-3-52
+34	13	15	13	17	18	#OPLS Dihedral Type 46-13-3-52
+35	13	15	13	17	16	#OPLS Dihedral Type 46-13-3-52
+36	14	16	13	17	18	#Improper Dihedral Type 0-0-3-52
+37	15	3	2	4	8	#Improper Dihedral Type 0-0-48-0
+38	15	4	1	2	5	#Improper Dihedral Type 0-0-48-0
+39	15	2	6	5	9	#Improper Dihedral Type 0-0-48-0
+40	15	5	10	9	11	#Improper Dihedral Type 0-0-48-0
+41	15	8	9	11	12	#Improper Dihedral Type 0-0-48-0
+42	15	7	4	8	11	#Improper Dihedral Type 0-0-48-0
+
+Bond Coeffs	#Bond Index, force constant, equilibrium length	
+
+1	13.0090	1.7250	#OPLS Bond Type 21-48
+2	20.3374	1.4000	#OPLS Bond Type 48-48
+3	15.9143	1.0800	#OPLS Bond Type 49-48
+4	19.5135	1.3640	#OPLS Bond Type 20-48
+5	13.8763	1.4100	#OPLS Bond Type 13-20
+6	14.7435	1.0900	#OPLS Bond Type 13-46
+7	13.7462	1.5220	#OPLS Bond Type 3-13
+8	28.4463	1.2500	#OPLS Bond Type 3-52
+
+Angle Coeffs	#Angle Index, Force Constant, Equilibrium angle			
+ 
+1	3.2522	120.00	#OPLS Angle Type 21-48-48
+2	2.7319	120.00	#OPLS Angle Type 48-48-48
+3	1.5177	120.00	#OPLS Angle Type 48-48-49
+4	3.0354	120.00	#OPLS Angle Type 20-48-48
+5	3.2522	111.00	#OPLS Angle Type 13-20-48
+6	1.5177	109.50	#OPLS Angle Type 20-13-46
+7	1.4310	107.80	#OPLS Angle Type 46-13-46
+8	1.5177	109.50	#OPLS Angle Type 3-13-46
+9	2.1682	109.50	#OPLS Angle Type 3-13-20
+10	3.0354	117.00	#OPLS Angle Type 13-3-52
+11	3.4691	126.00	#OPLS Angle Type 52-3-52
+
+Dihedral Coeffs	#dihedral index, k1, k2, k3, k4
+
+1	0.0000	0.3144	0.0000	0.0000	#OPLS Dihedral Type 21-48-48-49			
+2	0.0000	0.3144	0.0000	0.0000	#OPLS Dihedral Type 21-48-48-48 			
+3	0.0000	0.3144	0.0000	0.0000	#OPLS Dihedral Type 48-48-48-49 			
+4	0.0000	0.3144	0.0000	0.0000	#OPLS Dihedral Type 48-48-48-48 			
+5	0.0000	0.3144	0.0000	0.0000	#OPLS Dihedral Type 49-48-48-49 			
+6	0.0000	0.3144	0.0000	0.0000	#OPLS Dihedral Type 20-48-48-48 (approximated as OPLS dihedral type 0-48-48-48)
+7	0.0000	0.3144	0.0000	0.0000	#OPLS Dihedral Type 20-48-48-21 (approximated as OPLS dihedral type 0-48-48-0)
+8	0.0000	0.1301	0.0000	0.0000	#OPLS Dihedral Type 13-20-48-48			
+9	0.0000	0.0000	0.0330	0.0000	#OPLS Dihedral Type 46-13-20-48
+10	-0.0226	-0.0875	0.0866	0.0000	#OPLS Dihedral Type 3-13-20-48 (approximated as OPLS dihedral type 0-13-20-13)
+11	0.0000	0.3144	0.0000	0.0000	#OPLS Dihedral Type 20-48-48-49 (approximated as OPLS dihedral type 0-48-48-49)
+12	0.0000	0.0356	0.0000	0.0000	#OPLS Dihedral Type 52-3-13-20 (approximated as OPLS dihedral type 52-3-13-13)
+13	0.0000	0.0000	0.0000	0.0000	#OPLS Dihedral Type 52-3-13-46			
+14	0.000	0.9106	0.000	0.000	#OPLS Improper Dihedral Type 0-0-3-52			
+15	0.000	0.2168	0.000	0.000	#OPLS Improper Dihedral Type 0-0-48-0			

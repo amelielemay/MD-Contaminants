@@ -1,0 +1,140 @@
+LAMMPS Bis (2-chloroethyl) ether data file
+
+15 atoms		
+14 bonds		
+25 angles
+24 dihedrals
+
+6 atom types	
+4 bond types		
+7 angle types
+6 dihedral types	
+
+-20.0 20.0 xlo xhi		
+-20.0 20.0 ylo yhi		
+-20.0 20.0 zlo zhi		
+
+Masses		
+
+1 12.011 	#Alkyl Chloride RCH2-Cl Carbon
+2 35.453 	#Alkyl Chloride C-Cl Chlorine
+3 1.008 	#Alkyl Chloride H-C-Cl Hydrogen
+4 12.011 	#Ethyl Ether -CH2OR Carbon
+5 1.008 	#Alkyl Ether H-COR Hydrogen
+6 15.999    #Dialkyl Ether -O- Oxygen
+
+Atoms						
+
+1	1	1	-0.006	-3.005382376	1.005737299	0.034794679	#OPLS atom type 801(13)
+2	1	2	-0.2	-4.574134131	1.848081092	0.101654095	#OPLS atom type 800(21)
+3	1	3	0.103	-2.944987801	0.435772545	-0.916877137	#OPLS atom type 802(46)
+4	1	3	0.103	-2.941591172	0.29456425	0.885529874	#OPLS atom type 802(46)
+5	1	4	0.14	-1.862151976	2.009199113	0.108655755	#OPLS atom type 124(13)
+6	1	5	0.03	-1.967995759	2.70495641	-0.755626357	#OPLS atom type 127(26)
+7	1	5	0.03	-1.943863123	2.565892052	1.069974456 	#OPLS atom type 127(26)
+8	1	6	-0.4	-0.638472556	1.30842575	0.047433068	#OPLS atom type 122(20)
+9	1	4	0.14	0.43073917	2.227670499	0.000931857	#OPLS atom type 124(13)
+10	1	5	0.03	0.344000325	2.890797175	-0.890489269	#OPLS atom type 127(26)
+11	1	5	0.03	0.469635032	2.832816714	0.935751642	#OPLS atom type 127(26)
+12	1	1	-0.006	1.736998221	1.454251461	-0.123064319	#OPLS atom type 801(13)
+13	1	3	0.103	1.868243031	0.787892295	0.755836139	#OPLS atom type 802(46)
+14	1	3	0.103	1.72174362	0.835480526	-1.045535996	#OPLS atom type 802(46)
+15	1	2	-0.2	3.116748336	2.578388971	-0.208968486	#OPLS atom type 800(21)
+
+Bonds						
+
+1	1	1	2	#C-Cl bond OPLS (13-21)
+2	2	1	3	#C-H bond OPLS (13-46)
+3	2	1	4	#C-H bond OPLS (13-46)
+4	3	1	5	#C-C bond OPLS (13-13)
+5	2	5	6	#C-H bond OPLS (13-46)
+6	2	5	7	#C-H bond OPLS (13-46)
+7	4	5	8	#C-O bond OPLS (13-20)
+8	4	8	9	#C-O bond OPLS (13-20)
+9	2	9	10	#C-H bond OPLS (13-46)
+10	2	9	11	#C-H bond OPLS (13-46)
+11	3	9	12	#C-C bond OPLS (13-13)
+12	2	12	13	#C-H bond OPLS (13-46)
+13	2	12	14	#C-H bond OPLS (13-46)
+14	1	12	15	#C-Cl bond OPLS (13-21)
+
+Angles				
+
+1	1	1	5	8	#C-C-O angle (13-13-20)
+2	1	8	9	12	#C-C-O angle (13-13-20)
+3	2	2	1	5	#Cl-C-C angle (21-13-13)
+4	2	9	12	15	#Cl-C-C angle (21-13-13)
+5	3	3	1	4	#H-C-H angle (46-13-46)
+6	3	13	12	14	#H-C-H angle (46-13-46)
+7	3	6	5	7	#H-C-H angle (46-13-46)
+8	3	10	9	11	#H-C-H angle (46-13-46)
+9	4	6	5	8	#H-C-O angle (46-13-20)
+10	4	7	5	8	#H-C-O angle (46-13-20)
+11	4	8	9	10	#H-C-O angle (46-13-20)
+12	4	8	9	11	#H-C-O angle (46-13-20)
+13	5	1	5	6	#C-C-H angle (13-13-46)
+14	5	1	5	7	#C-C-H angle (13-13-46)
+15	5	10	9	12	#C-C-H angle (13-13-46)
+16	5	11	9	12	#C-C-H angle (13-13-46)
+17	5	3	1	5	#C-C-H angle (13-13-46)
+18	5	4	1	5	#C-C-H angle (13-13-46)
+19	5	9	12	13	#C-C-H angle (13-13-46)
+20	5	9	12	14	#C-C-H angle (13-13-46)
+21	6	2	1	3	#Cl-C-H angle (21-13-46)
+22	6	2	1	4	#Cl-C-H angle (21-13-46)
+23	6	13	12	15	#Cl-C-H angle (21-13-46)
+24	6	14	12	15	#Cl-C-H angle (21-13-46)
+25	7	5	8	9	#C-O-C angle (13-20-13)
+
+Dihedrals
+
+1	1	3	1	5	8	#H-C-C-O dihedral OPLS (46-13-13-20)
+2	1	4	1	5	8	#H-C-C-O dihedral OPLS (46-13-13-20)
+3	1	8	9	12	13	#H-C-C-O dihedral OPLS (46-13-13-20)
+4	1	8	9	12	14	#H-C-C-O dihedral OPLS (46-13-13-20)
+5	2	2	1	5	6	#Cl-C-C-H dihedral OPLS (21-13-13-46)
+6	2	2	1	5	7	#Cl-C-C-H dihedral OPLS (21-13-13-46)
+7	2	10	9	12	15	#Cl-C-C-H dihedral OPLS (21-13-13-46)
+8	2	11	9	12	15	#Cl-C-C-H dihedral OPLS (21-13-13-46)
+9	3	3	1	5	6	#H-C-C-H dihedral OPLS (46-13-13-46)
+10	3	3	1	5	7	#H-C-C-H dihedral OPLS (46-13-13-46)
+11	3	4	1	5	6	#H-C-C-H dihedral OPLS (46-13-13-46)
+12	3	4	1	5	7	#H-C-C-H dihedral OPLS (46-13-13-46)
+13	3	10	9	12	13	#H-C-C-H dihedral OPLS (46-13-13-46)
+14	3	11	9	12	13	#H-C-C-H dihedral OPLS (46-13-13-46)
+15	3	10	9	12	14	#H-C-C-H dihedral OPLS (46-13-13-46)
+16	3	11	9	12	14	#H-C-C-H dihedral OPLS (46-13-13-46)
+17	4	1	5	8	9	#C-C-O-C dihedral OPLS (13-13-20-13)
+18	4	5	8	9	12	#C-C-O-C dihedral OPLS (13-13-20-13)
+19	5	6	5	8	9	#H-C-O-C dihedral OPLS (46-13-20-13)
+20	5	7	5	8	9	#H-C-O-C dihedral OPLS (46-13-20-13)
+21	5	5	8	9	10	#H-C-O-C dihedral OPLS (46-13-20-13)
+22	5	5	8	9	11	#H-C-O-C dihedral OPLS (46-13-20-13)
+23	6	2	1	5	8	#Cl-C-C-O dihedral OPLS (21-13-13-20)
+24	6	8	9	12	15	#Cl-C-C-O dihedral OPLS (21-13-13-20)
+
+Bond Coeffs				
+
+1	10.6240	1.7810	#force constant and equilibrium length for bond type 1 (13-21)
+2	14.7435	1.0900	#force constant and equilibrium length for bond type 2 (13-46)
+3	11.6214	1.5290	#force constant and equilibrium length for bond type 3 (13-13)
+4	13.8763	1.4100	#force constant and equilibrium length for bond type 4 (13-20)
+
+Angle Coeffs				
+
+1	2.1682	109.50	#force constant and equilibrium angle for angle type 1 (13-13-20)
+2	2.9921	109.80	#force constant and equilibrium angle for angle type 2 (21-13-13)
+3	1.4310	107.80	#force constant and equilibrium angle for angle type 3 (46-13-46)
+4	1.5177	109.50	#force constant and equilibrium angle for angle type 4 (46-13-20)
+5	1.6261	110.70	#force constant and equilibrium angle for angle type 5 (13-13-46)
+6	2.2115	107.60	#force constant and equilibrium angle for angle type 6 (21-13-46) 
+7	2.6018	109.50 	#force constant and equilibrium angle for angle type 7 (13-20-13)
+
+Dihedral Coeffs
+
+1	0.0000	0.0000	0.0203	0.0000	#torsions for dihedral type 1 (46-13-13-20)
+2	0.0000	0.0000	0.0173	0.0000 	#torsions for dihedral type 2 (21-13-13-46)
+3	0.0000	0.0000	0.0130	0.0000	#torsions for dihedral type 3 (46-13-13-46)
+4	0.0282	-0.0108	0.0291	0.0000 	#torsions for dihedral type 4 (13-13-20-13)
+5	0.0000	0.0000	0.0330	0.0000	#torsions for dihedral type 5 (46-13-20-13) -- Doesn't exist, using 46-13-20-0
+6	0.0000	0.0000	0.0203	0.0000	#torsions for dihedral type 6 (21-13-13-20) * No OPLS-AA parameters for type 6 - used OPLS (46-13-13-20) for highest degree of specificity with #H-C (46) behaving similarly to Cl-C (20)

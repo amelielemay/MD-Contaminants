@@ -1,0 +1,82 @@
+LAMMPS Acetic Acid data file #created by Daniela Martinez, summer 2021, checked by Ian
+
+7	atoms
+6	bonds
+9	angles
+7  dihedrals	
+
+4	atom types
+3	bond types
+4	angle types
+2	dihedral types
+
+-20.0 20.0 xlo xhi		
+-20.0 20.0 ylo yhi		
+-20.0 20.0 zlo zhi		
+
+Masses		
+
+1 15.999   #O OPLS Atom Type 214(52)
+2 12.011   #C OPLS Atom Type 213(3)
+3 12.011   #C OPLS Atom Type 215(13)
+4 1.008    #H OPLS Atom Type 85(46)
+
+
+Atoms	#atom index, molecule index, atom type, partial charge, xyz coordinate
+
+1	1	1	-0.8000	-3.044393967	2.837020229	-0.156059645	#OPLS Atom Type 214(52)
+2	1	1	-0.8000	-3.540503244	0.69519232	0.159091897	#OPLS Atom Type 214(52)
+3	1	2	0.7000	-2.68312131	1.550370298	0.006544405	#OPLS Atom Type 213(3)
+4	1	3	-0.2800	-1.235499036	1.176622562	-0.000628255	#OPLS Atom Type 215(13)
+5	1	4	0.0600	-0.710661285	1.71074727	0.818624115	#OPLS Atom Type 85(46)
+6	1	4	0.0600	-0.783245765	1.463984797	-0.972640729	#OPLS Atom Type 85(46)
+7	1	4	0.0600	-1.110595763	0.082266328	0.145067728	#OPLS Atom Type 85(46)
+
+Bonds	#Bond Index, Bond Type, Atom 1, Atom 2					
+
+1	1	4	3	#OPLS Bond Type 3-13
+2	2	4	5	#OPLS Bond Type 13-46
+3	2	4	6	#OPLS Bond Type 13-46
+4	2	4	7	#OPLS Bond Type 13-46
+5	3	3	1	#OPLS Bond Type 3-52
+6	3	3	2	#OPLS Bond Type 3-52
+
+Angles	#Angle Index, Angle Type, Atom 1, Atom 2, Atom 3	
+
+1	1	3	4	5	#OPLS Angle Type 3-13-46
+2	1	3	4	6	#OPLS Angle Type 3-13-46
+3	1	3	4	7	#OPLS Angle Type 3-13-46
+4	2	5	4	6	#OPLS Angle Type 46-13-46
+5	2	5	4	7	#OPLS Angle Type 46-13-46
+6	2	6	4	7	#OPLS Angle Type 46-13-46
+7	3	4	3	1	#OPLS Angle Type 13-3-52
+8	3	4	3	2	#OPLS Angle Type 13-3-52
+9	4	1	3	2	#OPLS Angle Type 52-3-52
+
+Dihedrals #Dihedral Index, Dihedral type, atoms 
+
+1	1	5	4	3	1	#OPLS Dihedral Type 46-13-3-52
+2	1	5	4	3	2	#OPLS Dihedral Type 46-13-3-52
+3	1	6	4	3	1	#OPLS Dihedral Type 46-13-3-52
+4	1	6	4	3	2	#OPLS Dihedral Type 46-13-3-52
+5	1	7	4	3	1	#OPLS Dihedral Type 46-13-3-52
+6	1	7	4	3	2	#OPLS Dihedral Type 46-13-3-52
+7	2	4	1	3	2	#OPLS Improper Dihedral Type 0-0-3-52
+
+Bond Coeffs	#Bond Index, force constant, equilibrium length	
+
+1	13.7462	1.5220	#OPLS Bond Type 3-13
+2	14.7435	1.0900	#OPLS Bond Type 13-46
+3	28.4463	1.2500	#OPLS Bond Type 3-52
+
+Angle Coeffs	#Angle Index, Force Constant, Equilibrium angle			
+ 
+1	1.5177	109.50	#OPLS Angle Type 3-13-46
+2	1.4310	107.80	#OPLS Angle Type 46-13-46
+3	3.0354	117.00	#OPLS Angle Type 13-3-52
+4	3.4691	126.00	#OPLS Angle Type 52-3-52
+
+Dihedral Coeffs	#dihedral index, k1, k2, k3, k4
+
+1	0.0000	0.0000	0.0000	0.0000	#OPLS Dihedral Type 46-13-3-52
+2	0.0000	0.9106	0.0000	0.0000	#OPLS Improper Dihedral Type 0-0-3-52
