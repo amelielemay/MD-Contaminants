@@ -57,7 +57,7 @@ We ask that you please cite our publication<sup>2</sup> if you use these files i
 ### References and Attributions
 
 1. Jorgensen, W. L.; Maxwell, D. S.; Tirado-Rives, J. Development and testing of the OPLS all-atom force field on conformational energetics and properties of organic liquids. *J. Am. Chem. Soc.* 1996, 118, 11225-11236.
-2. 2. Lemay, A.C., Sontarp, E.J., Martinez, D., Maruri, P., Mohammed, R., Neapole, R., Wiese, M., Willemsen, J.A.R., Bourg, I.C. Molecular Dynamics Simulation Prediction of the Partitioning Constants (K<sub>H</sub>, K<sub>iw</sub>, K<sub>ia</sub>) of 82 Legacy and Emerging Organic Contaminants at the Water-Air Interface. *Environ. Sci. Technol.* 2023, 57(15), 6296-6308.
+2. 2. Lemay, A.C.; Sontarp, E.J.; Martinez, D.; Maruri, P.; Mohammed, R.; Neapole, R.; Wiese, M.; Willemsen, J.A.R.; Bourg, I.C. Molecular Dynamics Simulation Prediction of the Partitioning Constants (K<sub>H</sub>, K<sub>iw</sub>, K<sub>ia</sub>) of 82 Legacy and Emerging Organic Contaminants at the Water-Air Interface. *Environ. Sci. Technol.* 2023, 57(15), 6296-6308.
 3. The license description in our README.md and accompanying LICENSE.md file were obtained from the Github repository [cc-licenses by santisoler](https://github.com/santisoler/cc-licenses). 
 
 ### Acknowledgment
