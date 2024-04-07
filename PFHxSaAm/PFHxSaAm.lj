@@ -1,0 +1,389 @@
+LAMMPS PFHxSaAm data file	 # Created by Cynthia and Olivia summer 2023, checked by Amélie	
+
+43 atoms		
+42 bonds		
+81 angles
+112 dihedrals		
+
+15 atom types	
+10 bond types		
+20 angle types
+26 dihedral types		
+
+-30.0 30.0 xlo xhi		
+-30.0 30.0 ylo yhi		
+-30.0 30.0 zlo zhi		
+
+Masses		
+
+1 12.011	#C1					
+2 12.011	#C2					
+3 18.998	#F
+4 32.065	#S
+5 15.999	#O1
+6 14.007	#N1
+7 12.011	#C3
+8 12.011	#C4
+9 12.011	#C5
+10 12.011	#C6
+11 14.007	#N2
+12 1.0078	#H1
+13 1.0078	#H2
+14 1.0078	#H3
+15 1.0078	#H4				
+
+Atoms						
+
+1	1	1	0.36	-7.041652578	0.9699215065	-0.0407076443	#OPLS atom type 791 (13)
+2	1	2	0.24	-5.840344581	1.900027199	-0.0922430102	#OPLS atom type 792 (13)
+3	1	2	0.24	-4.546299474	1.112296955	-0.013388647	#OPLS atom type 792 (13)
+4	1	2	0.24	-3.321539412	2.021827909	-0.1320056261	#OPLS atom type 792 (13)
+5	1	2	0.24	-2.013155865	1.263748338	0.0647801874	#OPLS atom type 792 (13)
+6	1	2	0.24	-0.7960338465	2.153781174	-0.1746822725	#OPLS atom type 792 (13)
+7	1	3	-0.12	-7.066643026	0.1059780218	-1.082165616	#OPLS atom type 795 (1)
+8	1	3	-0.12	-7.075757633	0.2317055413	1.092468898	#OPLS atom type 795 (1)
+9	1	3	-0.12	-8.205215921	1.667516428	-0.0870004961	#OPLS atom type 795 (1)
+10	1	3	-0.12	-5.875419446	2.641758944	-1.235941702	#OPLS atom type 795 (1)
+11	1	3	-0.12	-5.90366137	2.797508167	0.9339511214	#OPLS atom type 795 (1)
+12	1	3	-0.12	-4.501643137	0.4217724345	1.158480022	#OPLS atom type 795 (1)
+13	1	3	-0.12	-4.508991428	0.174058505	-0.9991402305	#OPLS atom type 795 (1)
+14	1	3	-0.12	-3.320775193	2.63388909	-1.347557847	#OPLS atom type 795 (1)
+15	1	3	-0.12	-3.395438599	3.023159307	0.7883616946	#OPLS atom type 795 (1)
+16	1	3	-0.12	-1.988889295	0.7536616193	1.327006904	#OPLS atom type 795 (1)
+17	1	3	-0.12	-1.971822134	0.1931271428	-0.7744658202	#OPLS atom type 795 (1)
+18	1	3	-0.12	-0.6782117521	2.495867783	-1.490139694	#OPLS atom type 795 (1)
+19	1	3	-0.12	-0.8908025985	3.333056835	0.5082807016	#OPLS atom type 795 (1)
+20	1	4	1.48	0.7141151754	1.224902545	0.4212039288	#OPLS atom type 415(79)
+21	1	5	-0.68	0.8272939079	1.334190303	1.862137849	#OPLS atom type 416(23)
+22	1	5	-0.68	0.820162556	-0.0702977244	-0.2221020817	#OPLS atom type 416(23)
+23	1	6	-0.8	2.127311363	2.111314938	-0.1335023129	#OPLS atom type 421(24)
+24	1	7	0.39	3.385889335	1.341538102	0.1725358332	#OPLS atom type 425(13)
+25	1	8	-0.12	4.680450974	2.076879855	-0.2312398554	#OPLS atom type 81(13)
+26	1	9	0.15	5.898851161	1.21335337	0.1555549453	#OPLS atom type 773(13)
+27	1	11	-0.1	7.217782351	1.738460679	-0.3952782223	#OPLS atom type 770(53)
+28	1	10	0.09	7.695796584	3.018083487	0.238584373	#OPLS atom type 772(13)
+29	1	10	0.09	8.307744348	0.6872698723	-0.3019900635	#OPLS atom type 772(13)
+30	1	15	0.41	2.114164014	3.024871042	0.3326568512	#OPLS atom type 422(45)
+31	1	12	-0.06	3.423186819	1.139187087	1.248588575	#OPLS atom type 426(46)
+32	1	12	-0.06	3.350917816	0.3887761301	-0.3674240525	#OPLS atom type 426(46)
+33	1	13	0.06	4.679835242	2.271959867	-1.309857949	#OPLS atom type 85(46)
+34	1	13	0.06	4.728942455	3.047747699	0.2745122277	#OPLS atom type 85(46)
+35	1	13	0.06	6.011794088	1.136078075	1.242786225	#OPLS atom type 85(46)
+36	1	13	0.06	5.779378893	0.2063778776	-0.2594681842	#OPLS atom type 85(46)
+37	1	14	0.29	7.088187708	1.924143219	-1.39939419	#OPLS atom type 771(54)
+38	1	13	0.06	6.95583161	3.796827244	0.0498925445	#OPLS atom type 85(46)
+39	1	13	0.06	7.835078535	2.847560245	1.309694119	#OPLS atom type 85(46)
+40	1	13	0.06	8.645941293	3.293640383	-0.2308976225	#OPLS atom type 85(46)
+41	1	13	0.06	9.20229255	1.077519973	-0.7967732636	#OPLS atom type 85(46)
+42	1	13	0.06	8.506016538	0.4833970234	0.7544393797	#OPLS atom type 85(46)
+43	1	13	0.06	7.964425931	-0.2124273999	-0.8185499784	#OPLS atom type 85(46)
+
+Bonds						
+
+1	2	1	9	#OPLS bond type 13-1
+2	2	1	8	#OPLS bond type 13-1
+3	2	1	7	#OPLS bond type 13-1
+4	1	1	2	#OPLS bond type 13-13
+5	2	2	10	#OPLS bond type 13-1
+6	2	2	11	#OPLS bond type 13-1
+7	1	2	3	#OPLS bond type 13-13
+8	2	3	12	#OPLS bond type 13-1
+9	2	3	13	#OPLS bond type 13-1
+10	1	3	4	#OPLS bond type 13-13
+11	2	4	14	#OPLS bond type 13-1
+12	2	4	15	#OPLS bond type 13-1
+13	1	4	5	#OPLS bond type 13-13
+14	2	5	16	#OPLS bond type 13-1
+15	2	5	17	#OPLS bond type 13-1
+16	1	5	6	#OPLS bond type 13-13
+17	2	6	18	#OPLS bond type 13-1
+18	2	6	19	#OPLS bond type 13-1
+19	3	6	20	#OPLS bond type 13-79
+20	4	20	21	#OPLS bond type 79-23
+21	4	20	22	#OPLS bond type 79-23
+22	5	20	23	#OPLS bond type 79-24
+23	7	23	30	#OPLS bond type 24-45
+24	6	23	24	#OPLS bond type 24-13
+25	9	24	31	#OPLS bond type 13-46
+26	9	24	32	#OPLS bond type 13-46
+27	1	24	25	#OPLS bond type 13-13
+28	9	25	33	#OPLS bond type 13-46
+29	9	25	34	#OPLS bond type 13-46
+30	1	25	26	#OPLS bond type 13-13
+31	9	26	35	#OPLS bond type 13-46
+32	9	26	36	#OPLS bond type 13-46
+33	8	26	27	#OPLS bond type 53-13
+34	10	27	37	#OPLS bond type 53-54 # (was mislabeled as 13-54)
+35	8	27	28	#OPLS bond type 53-13
+36	8	27	29	#OPLS bond type 53-13
+37	9	29	43	#OPLS bond type 13-46
+38	9	29	42	#OPLS bond type 13-46
+39	9	29	41	#OPLS bond type 13-46
+40	9	28	40	#OPLS bond type 13-46
+41	9	28	39	#OPLS bond type 13-46
+42	9	28	38	#OPLS bond type 13-46
+
+
+Angles				
+
+1	1	7	1	9	#OPLS angle type 1-13-1
+2	1	7	1	8	#OPLS angle type 1-13-1
+3	1	8	1	9	#OPLS angle type 1-13-1
+4	1	10	2	11	#OPLS angle type 1-13-1
+5	1	12	3	13	#OPLS angle type 1-13-1
+6	1	14	4	15	#OPLS angle type 1-13-1
+7	1	16	5	17	#OPLS angle type 1-13-1
+8	1	18	6	19	#OPLS angle type 1-13-1
+9	2	2	1	7	#OPLS angle type 1-13-13
+10	2	2	1	8	#OPLS angle type 1-13-13
+11	2	2	1	9	#OPLS angle type 1-13-13
+12	2	1	2	10	#OPLS angle type 1-13-13
+13	2	1	2	11	#OPLS angle type 1-13-13
+14	2	3	2	10	#OPLS angle type 1-13-13
+15	2	3	2	11	#OPLS angle type 1-13-13
+16	2	2	3	12	#OPLS angle type 1-13-13
+17	2	4	3	12	#OPLS angle type 1-13-13
+18	2	2	3	13	#OPLS angle type 1-13-13
+19	2	4	3	13	#OPLS angle type 1-13-13
+20	2	3	4	14	#OPLS angle type 1-13-13
+21	2	5	4	14	#OPLS angle type 1-13-13
+22	2	3	4	15	#OPLS angle type 1-13-13
+23	2	5	4	15	#OPLS angle type 1-13-13
+24	2	4	5	16	#OPLS angle type 1-13-13
+25	2	6	5	16	#OPLS angle type 1-13-13
+26	2	4	5	17	#OPLS angle type 1-13-13
+27	2	6	5	17	#OPLS angle type 1-13-13
+28	2	5	6	18	#OPLS angle type 1-13-13
+29	2	5	6	19	#OPLS angle type 1-13-13
+30	3	1	2	3	#OPLS angle type 13-13-13
+31	3	2	3	4	#OPLS angle type 13-13-13
+32	3	3	4	5	#OPLS angle type 13-13-13
+33	3	4	5	6	#OPLS angle type 13-13-13
+34	3	24	25	26	#OPLS angle type 13-13-13
+35	4	23	24	25	#OPLS angle type 24-13-13
+36	5	31	24	32	#OPLS angle type 46-13-46
+37	5	33	25	34	#OPLS angle type 46-13-46
+38	5	35	26	36	#OPLS angle type 46-13-46
+39	5	38	28	40	#OPLS angle type 46-13-46
+40	5	38	28	39	#OPLS angle type 46-13-46
+41	5	39	28	40	#OPLS angle type 46-13-46
+42	5	41	29	43	#OPLS angle type 46-13-46
+43	5	41	29	42	#OPLS angle type 46-13-46
+44	5	42	29	43	#OPLS angle type 46-13-46
+45	6	23	24	31	#OPLS angle type 24-13-46
+46	6	23	24	32	#OPLS angle type 24-13-46
+47	7	24	25	33	#OPLS angle type 13-13-46
+48	7	24	25	34	#OPLS angle type 13-13-46
+49	7	25	24	31	#OPLS angle type 13-13-46
+50	7	25	24	32	#OPLS angle type 13-13-46
+51	7	25	26	35	#OPLS angle type 13-13-46
+52	7	25	26	36	#OPLS angle type 13-13-46
+53	7	26	25	33	#OPLS angle type 13-13-46
+54	7	26	25	34	#OPLS angle type 13-13-46
+55	8	27	26	35	#OPLS angle type 53-13-46
+56	8	27	26	36	#OPLS angle type 53-13-46
+57	8	27	28	38	#OPLS angle type 53-13-46
+58	8	27	28	39	#OPLS angle type 53-13-46
+59	8	27	28	40	#OPLS angle type 53-13-46
+60	8	27	29	41	#OPLS angle type 53-13-46
+61	8	27	29	42	#OPLS angle type 53-13-46
+62	8	27	29	43	#OPLS angle type 53-13-46
+63	9	25	26	27	#OPLS angle type 13-13-53
+64	10	5	6	20	#OPLS angle type 13-13-79
+65	11	18	6	20	#OPLS angle type 1-13-79
+66	11	19	6	20	#OPLS angle type 1-13-79
+67	12	24	23	30	#OPLS angle type 13-24-13
+68	13	20	23	24	#OPLS angle type 79-24-13
+69	20	20	23	30	#OPLS angle type 79-24-45
+70	14	26	27	28	#OPLS angle type 13-53-13
+71	14	26	27	29	#OPLS angle type 13-53-13
+72	14	28	27	29	#OPLS angle type 13-53-13
+73	15	26	27	37	#OPLS angle type 13-53-54
+74	15	28	27	37	#OPLS angle type 13-53-54
+75	15	29	27	37	#OPLS angle type 13-53-54
+76	16	6	20	21	#OPLS angle type 13-79-23
+77	16	6	20	22	#OPLS angle type 13-79-23
+78	17	21	20	22	#OPLS angle type 23-79-23
+79	18	6	20	23	#OPLS angle type 13-79-24
+80	19	21	20	23	#OPLS angle type 23-79-24
+81	19	22	20	23	#OPLS angle type 23-79-24
+
+Dihedrals
+
+1	1	7	1	2	10	#OPLS dihedral type 1-13-13-1
+2	1	7	1	2	11	#OPLS dihedral type 1-13-13-1
+3	1	8	1	2	10	#OPLS dihedral type 1-13-13-1
+4	1	8	1	2	11	#OPLS dihedral type 1-13-13-1
+5	1	9	1	2	10	#OPLS dihedral type 1-13-13-1
+6	1	9	1	2	11	#OPLS dihedral type 1-13-13-1
+7	1	10	2	3	12	#OPLS dihedral type 1-13-13-1
+8	1	10	2	3	13	#OPLS dihedral type 1-13-13-1
+9	1	11	2	3	12	#OPLS dihedral type 1-13-13-1
+10	1	11	2	3	13	#OPLS dihedral type 1-13-13-1
+11	1	12	3	4	14	#OPLS dihedral type 1-13-13-1
+12	1	12	3	4	15	#OPLS dihedral type 1-13-13-1
+13	1	13	3	4	14	#OPLS dihedral type 1-13-13-1
+14	1	13	3	4	15	#OPLS dihedral type 1-13-13-1
+15	1	14	4	5	16	#OPLS dihedral type 1-13-13-1
+16	1	14	4	5	17	#OPLS dihedral type 1-13-13-1
+17	1	15	4	5	16	#OPLS dihedral type 1-13-13-1
+18	1	15	4	5	17	#OPLS dihedral type 1-13-13-1
+19	1	16	5	6	18	#OPLS dihedral type 1-13-13-1
+20	1	16	5	6	19	#OPLS dihedral type 1-13-13-1
+21	1	17	5	6	18	#OPLS dihedral type 1-13-13-1
+22	1	17	5	6	19	#OPLS dihedral type 1-13-13-1
+23	2	3	2	1	7	#OPLS dihedral type 13-13-13-1
+24	2	3	2	1	8	#OPLS dihedral type 13-13-13-1
+25	2	3	2	1	9	#OPLS dihedral type 13-13-13-1
+26	2	4	3	2	10	#OPLS dihedral type 13-13-13-1
+27	2	4	3	2	11	#OPLS dihedral type 13-13-13-1
+28	2	5	4	3	12	#OPLS dihedral type 13-13-13-1
+29	2	5	4	3	13	#OPLS dihedral type 13-13-13-1
+30	2	2	3	4	14	#OPLS dihedral type 13-13-13-1
+31	2	6	5	4	14	#OPLS dihedral type 13-13-13-1
+32	2	2	3	4	15	#OPLS dihedral type 13-13-13-1
+33	2	6	5	4	15	#OPLS dihedral type 13-13-13-1
+34	2	3	4	5	16	#OPLS dihedral type 13-13-13-1
+35	2	3	4	5	17	#OPLS dihedral type 13-13-13-1
+36	2	4	5	6	18	#OPLS dihedral type 13-13-13-1
+37	2	4	5	6	19	#OPLS dihedral type 13-13-13-1
+38	2	1	2	3	12	#OPLS dihedral type 13-13-13-1
+39	2	1	2	3	13	#OPLS dihedral type 13-13-13-1
+40	3	1	2	3	4	#OPLS dihedral type 13-13-13-13 (perfluoroalkene)
+41	3	2	3	4	5	#OPLS dihedral type 13-13-13-13 (perfluoroalkene)
+42	3	3	4	5	6	#OPLS dihedral type 13-13-13-13 (perfluoroalkene)
+43	4	23	24	25	26	#OPLS dihedral type 24-13-13-13 (default)
+44	5	24	25	26	35	#OPLS dihedral type 13-13-13-46
+45	5	24	25	26	36	#OPLS dihedral type 13-13-13-46
+46	5	26	25	24	31	#OPLS dihedral type 13-13-13-46
+47	5	26	25	24	32	#OPLS dihedral type 13-13-13-46
+48	6	24	25	26	27	#OPLS dihedral type 13-13-13-53
+49	7	4	5	6	20	#OPLS dihedral type 3-13-13-1
+50	8	23	24	25	33	#OPLS dihedral type 24-13-13-46
+51	8	23	24	25	34	#OPLS dihedral type 24-13-13-46
+52	9	31	24	25	33	#OPLS dihedral type 46-13-13-46
+53	9	31	24	25	34	#OPLS dihedral type 46-13-13-46
+54	9	32	24	25	33	#OPLS dihedral type 46-13-13-46
+55	9	32	24	25	34	#OPLS dihedral type 46-13-13-46
+56	9	33	25	26	35	#OPLS dihedral type 46-13-13-46
+57	9	33	25	26	36	#OPLS dihedral type 46-13-13-46
+58	9	34	25	26	35	#OPLS dihedral type 46-13-13-46
+59	9	34	25	26	36	#OPLS dihedral type 46-13-13-46
+60	10	27	26	25	33	#OPLS dihedral type 53-13-13-46
+61	10	27	26	25	34	#OPLS dihedral type 53-13-13-46
+62	11	25	24	23	30	#OPLS dihedral type 13-13-24-45
+63	12	20	23	24	25	#OPLS dihedral type 13-13-24-79
+64	13	30	23	24	31	#OPLS dihedral type #45-24-13-46
+65	13	30	23	24	32	#OPLS dihedral type #45-24-13-46
+66	14	20	23	24	31	#OPLS dihedral type 79-24-13-46
+67	14	20	23	24	32	#OPLS dihedral type 79-24-13-46
+68	15	25	26	27	28	#OPLS dihedral type 13-13-53-13
+69	15	25	26	27	29	#OPLS dihedral type 13-13-53-13
+70	16	28	27	26	35	#OPLS dihedral type 13-53-13-46
+71	16	29	27	26	35	#OPLS dihedral type 13-53-13-46
+72	16	28	27	26	36	#OPLS dihedral type 13-53-13-46
+73	16	29	27	26	36	#OPLS dihedral type 13-53-13-46
+74	16	26	27	28	38	#OPLS dihedral type 13-53-13-46
+75	16	26	27	28	39	#OPLS dihedral type 13-53-13-46
+76	16	26	27	28	40	#OPLS dihedral type 13-53-13-46
+77	16	26	27	29	41	#OPLS dihedral type 13-53-13-46
+78	16	26	27	29	42	#OPLS dihedral type 13-53-13-46
+79	16	26	27	29	43	#OPLS dihedral type 13-53-13-46
+80	16	29	27	28	38	#OPLS dihedral type 13-53-13-46
+81	16	29	27	28	39	#OPLS dihedral type 13-53-13-46
+82	16	29	27	28	40	#OPLS dihedral type 13-53-13-46
+83	16	28	27	29	41	#OPLS dihedral type 13-53-13-46
+84	16	28	27	29	42	#OPLS dihedral type 13-53-13-46
+85	16	28	27	29	43	#OPLS dihedral type 13-53-13-46
+86	17	35	26	27	37	#OPLS dihedral type 46-13-53-54
+87	17	36	26	27	37	#OPLS dihedral type 46-13-53-54
+88	17	37	27	28	38	#OPLS dihedral type 46-13-53-54
+89	17	37	27	28	39	#OPLS dihedral type 46-13-53-54
+90	17	37	27	28	40	#OPLS dihedral type 46-13-53-54
+91	17	37	27	29	41	#OPLS dihedral type 46-13-53-54
+92	17	37	27	29	42	#OPLS dihedral type 46-13-53-54
+93	17	37	27	29	43	#OPLS dihedral type 46-13-53-54
+94	18	18	6	20	21	#OPLS dihedral type 1-13-79-23
+95	18	18	6	20	22	#OPLS dihedral type 1-13-79-23
+96	18	19	6	20	21	#OPLS dihedral type 1-13-79-23
+97	18	19	6	20	22	#OPLS dihedral type 1-13-79-23
+98	19	5	6	20	23	#OPLS dihedral type 0-13-79-24
+99	19	18	6	20	23	#OPLS dihedral type 0-13-79-24
+100	19	19	6	20	23	#OPLS dihedral type 0-13-79-24
+101	20	5	6	20	21	#OPLS dihedral type 13-13-79-23
+102	20	5	6	20	22	#OPLS dihedral type 13-13-79-23
+103	21	21	20	23	24	#OPLS dihedral type 0-24-79-23
+104	21	22	20	23	24	#OPLS dihedral type 0-24-79-23
+105	21	21	20	23	30	#OPLS dihedral type 0-24-79-23
+106	21	22	20	23	30	#OPLS dihedral type 0-24-79-23
+107	22	25	26	27	37	#OPLS dihedral type 13-13-53-54
+108	23	20	6	5	16	#1-13-13-79 DOES NOT EXIST in OPLS, replace with 46-13-13-79 (sulfone)
+109	23	20	6	5	17	#1-13-13-79 DOES NOT EXIST in OPLS, replace with 46-13-13-79 (sulfone)
+110	24	6	20	23	30	#45-24-79-13 DOES NOT EXIST in OPLS, replace with 45-24-79-48
+111	25	6	20	23	24	#13-79-24-13  DOES NOT EXIST in OPLS, replace with 13-24-79-48
+112	26	20	30	23	24	#OPLS improper dihedral type 0-0-24-0
+
+Bond Coeffs				
+
+1	11.6214	1.5290	#OPLS bond type 13-13
+2	15.9143	1.3600	#OPLS bond type 13-1
+3	14.7435	1.7700	#OPLS bond type 13-79
+4	30.3543	1.4400	#OPLS bond type 79-23
+5	18.8197	1.6700	#OPLS bond type 79-24
+6	14.6134	1.4490	#OPLS bond type 24-13
+7	18.8197	1.0100	#OPLS bond type 24-45
+8	15.9143	1.4710	#OPLS bond type 53-13
+9	14.7435	1.0900	#OPLS bond type 13-46
+10	18.8197	1.0100	#OPLS bond type 53-54	# was mislabeled as 13-54
+
+Angle Coeffs				
+
+1	3.3390	109.10	#OPLS angle type 1-13-1
+2	2.1682	109.50	#OPLS angle type 1-13-13
+3	2.5303	112.70	#OPLS angle type 13-13-13
+4	3.4691	109.70	#OPLS angle type 24-13-13
+5	1.4310	107.80	#OPLS angle type 46-13-46
+6	1.5177	109.50	#OPLS angle type 24-13-46
+7	1.6261	110.70	#OPLS angle type 13-13-46
+8	1.5177	109.50	#OPLS angle type 53-13-46
+9	3.4691	111.20	#OPLS angle type 13-13-53
+10	2.1682	108.60	#OPLS angle type 13-13-79
+11	2.1682	109.50	#OPLS angle type 1-13-79
+12	2.1682	118.00	#OPLS angle type 13-24-13
+13	2.1682	120.00	#OPLS angle type 79-24-13
+14	2.1682	113.00	#OPLS angle type 13-53-13
+15	1.5177	109.50	#OPLS angle type 13-53-54
+16	3.2089	108.90	#OPLS angle type 13-79-23
+17	4.5098	119.00	#OPLS angle type 23-79-23
+18	4.3363	103.00	#OPLS angle type 13-79-24
+19	5.2036	107.00	#OPLS angle type 23-79-24
+20	4.3363	111.00	#OPLS angle type 79-24-45
+
+Dihedral Coeffs
+
+1	-0.1084	0.0000	0.0108	0.0000	#OPLS dihedral type 1-13-13-1
+2	0.0130	-0.0173	0.0173	0.0000	#OPLS dihedral type 13-13-13-1
+3	0.2872	0.0411	-0.0602	-0.0918	#OPLS dihedral type 13-13-13-13 (perfluoroalkene)
+4	0.0366	-0.0417	0.0309	0.0000	#OPLS dihedral type 24-13-13-13 (default)
+5	0.0000	0.0000	0.0130	0.0000	#OPLS dihedral type 13-13-13-46
+6	0.1185	-0.0099	0.0210	0.0000	#OPLS dihedral type 13-13-13-53
+7	0.0547	-0.0086	0.0202	0.0000	#OPLS dihedral type 13-13-13-79
+8	0.0000	0.0000	0.0201	0.0000	#OPLS dihedral type 24-13-13-46
+9	0.0000	0.0000	0.0130	0.0000	#OPLS dihedral type 46-13-13-46
+10	0.0000	0.0000	0.0167	0.0000	#OPLS dihedral type 53-13-13-46
+11	0.0000	0.0000	0.0000	0.0000	#OPLS dihedral type 13-13-24-45
+12	0.1270	-0.1098	0.0216	0.0000	#OPLS dihedral type 13-13-24-79
+13	0.0000	0.0000	0.0000	0.0000	#OPLS dihedral type 46-13-24-45
+14	0.0591	-0.0632	0.0065	0.0000	#OPLS dihedral type 79-24-13-46
+15	0.0624	-0.0054	0.0114	0.0000	#OPLS dihedral type 13-13-53-13
+16	0.0000	0.0000	0.0131	0.0000	#OPLS dihedral type 13-53-13-46
+17	0.0000	0.0000	0.0130	0.0000	#OPLS dihedral type 46-13-53-54
+18	0.0000	0.0000	0.0000	0.0000	#OPLS dihedral type 1-13-79-23
+19	0.0000	0.0000	0.0000	0.0000	#OPLS dihedral type 0-13-79-24
+20	0.0000	0.0000	0.0000	0.0000	#OPLS dihedral type 13-13-79-23
+21	0.0000	0.0000	0.0000	0.0000	#OPLS dihedral type 0-24-79-23
+22	0.0000	0.0000	0.0150	0.0000	#OPLS dihedral type 13-13-53-54
+23	0.0000	0.0000	0.0152	0.0000	#1-13-13-79 DOES NOT EXIST in OPLS, replace with 46-13-13-79 (sulfone)
+24	0.0725	-0.2125	0.0290	0.0000	#45-24-79-13 DOES NOT EXIST in OPLS, replace with 45-24-79-48
+25	0.0899	-0.1286	0.1072	0.0000	#13-79-24-13  DOES NOT EXIST in OPLS, replace with 13-24-79-48
+26	0.0000	0.2168	0.0000	0.0000	#OPLS improper dihedral type 0-0-24-0
